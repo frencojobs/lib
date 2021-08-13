@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsup",
     "watch": "tsup --watch",
-    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint src/ test/ --ext .js,.jsx,.ts,.tsx",
     "test": "jest"
   },
   "prettier": "minimalistic",
