@@ -33,6 +33,11 @@
     "ignorePatterns": "dist"
   },
   "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.test.json"
+      }
+    },
     "testMatch": [
       "<rootDir>/**/*.(spec|test).{ts,tsx,js,jsx}"
     ],
@@ -41,7 +46,7 @@
     }
   },
   "devDependencies": {
-    "@types/jest": "^26.0.24",
+    "@types/jest": "^27.0.1",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
     "eslint": "^7.32.0",
